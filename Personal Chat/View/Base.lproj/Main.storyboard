@@ -31,12 +31,12 @@
                                     <segue destination="Xbe-iQ-ZTD" kind="show" id="pfJ-LW-iz3"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Personal Chat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CQn-H2-e6S">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😉Personal Chat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CQn-H2-e6S">
                                 <rect key="frame" x="52" y="396" width="289" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="2bK-pw-4ax"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="40"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="34"/>
                                 <color key="textColor" red="0.99352818727493286" green="0.64454272967330761" blue="0.87859957241791997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
