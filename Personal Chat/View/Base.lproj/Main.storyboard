@@ -19,13 +19,13 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="221-lU-Z5M">
                                 <rect key="frame" x="0.0" y="723" width="393" height="61"/>
-                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <color key="backgroundColor" name="BrandLightBlue"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="61" id="YUb-OX-vhB"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Log In">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" name="BrandPurple"/>
                                 </state>
                                 <connections>
                                     <segue destination="Xbe-iQ-ZTD" kind="show" id="pfJ-LW-iz3"/>
@@ -37,7 +37,7 @@
                                     <constraint firstAttribute="height" constant="60" id="2bK-pw-4ax"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="34"/>
-                                <color key="textColor" red="0.99352818727493286" green="0.64454272967330761" blue="0.87859957241791997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.79480106314432986" green="0.51296630405345289" blue="0.70368057230432879" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCm-Wj-nWA">
@@ -57,7 +57,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="keo-Bq-JlX"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="BrandLightPurple"/>
                         <constraints>
                             <constraint firstItem="221-lU-Z5M" firstAttribute="trailing" secondItem="keo-Bq-JlX" secondAttribute="trailing" id="0RI-UZ-bkF"/>
                             <constraint firstItem="keo-Bq-JlX" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="CQn-H2-e6S" secondAttribute="trailing" id="D5G-3W-eH8"/>
@@ -89,8 +89,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8f7-iz-mxR">
-                                <rect key="frame" x="0.0" y="162" width="393" height="562"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="0.0" y="162" width="393" height="513"/>
+                                <color key="backgroundColor" name="BrandLightPurple"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReusableCell" id="ssZ-3Z-K4h">
                                         <rect key="frame" x="0.0" y="50" width="393" height="44"/>
@@ -103,14 +103,13 @@
                                 </prototypes>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TRD-iJ-ldA">
-                                <rect key="frame" x="0.0" y="724" width="393" height="60"/>
+                                <rect key="frame" x="0.0" y="675" width="393" height="60"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write a message..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QFm-aO-WKr">
                                         <rect key="frame" x="20" y="20" width="293" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="HFe-pt-2gy"/>
                                         </constraints>
-                                        <color key="textColor" name="BrandPurple"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -129,7 +128,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" name="BrandPurple"/>
+                                <color key="backgroundColor" red="0.79480106309999998" green="0.51296630409999999" blue="0.70368057230000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="Hme-NU-jnq" secondAttribute="trailing" constant="20" id="8Qo-RS-VQz"/>
                                     <constraint firstItem="Hme-NU-jnq" firstAttribute="leading" secondItem="QFm-aO-WKr" secondAttribute="trailing" constant="20" id="H0a-La-foW"/>
@@ -141,7 +140,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qbR-ne-gyd"/>
-                        <color key="backgroundColor" name="BrandPurple"/>
+                        <color key="backgroundColor" red="0.79480106309999998" green="0.51296630409999999" blue="0.70368057230000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="8f7-iz-mxR" firstAttribute="leading" secondItem="qbR-ne-gyd" secondAttribute="leading" id="3YE-Zf-AvH"/>
                             <constraint firstItem="TRD-iJ-ldA" firstAttribute="leading" secondItem="qbR-ne-gyd" secondAttribute="leading" id="5P2-Jf-D6f"/>
@@ -152,7 +151,16 @@
                             <constraint firstItem="8f7-iz-mxR" firstAttribute="top" secondItem="qbR-ne-gyd" secondAttribute="top" id="sfK-4n-Wy4"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="ygN-v8-dAa"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" leftItemsSupplementBackButton="YES" id="ygN-v8-dAa">
+                        <barButtonItem key="rightBarButtonItem" title="Log Out" id="hal-9k-6kh" userLabel="Log Out" colorLabel="IBBuiltInLabel-Red">
+                            <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
+                            <connections>
+                                <action selector="logOutPressed:" destination="fLA-zg-yli" id="sUV-KX-xAD"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="messageTextField" destination="QFm-aO-WKr" id="kbc-wc-E76"/>
                         <outlet property="tableView" destination="8f7-iz-mxR" id="0Lh-kF-Aol"/>
@@ -178,7 +186,7 @@
                                     </imageView>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="occ-Oq-WfV">
                                         <rect key="frame" x="49" y="51" width="296" height="45"/>
-                                        <color key="textColor" name="BrandBlue"/>
+                                        <color key="textColor" red="0.79480106309999998" green="0.51296630409999999" blue="0.70368057230000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -203,7 +211,7 @@
                                     </imageView>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gDn-Ai-pi1">
                                         <rect key="frame" x="49" y="48" width="296" height="45"/>
-                                        <color key="textColor" name="BrandBlue"/>
+                                        <color key="textColor" red="0.79480106309999998" green="0.51296630409999999" blue="0.70368057230000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
@@ -211,7 +219,7 @@
                                         <rect key="frame" x="0.0" y="124" width="393" height="53"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Log In">
-                                            <color key="titleColor" name="BrandLightBlue"/>
+                                            <color key="titleColor" name="BrandPurple"/>
                                         </state>
                                         <connections>
                                             <action selector="loginPressed:" destination="Xbe-iQ-ZTD" eventType="touchUpInside" id="hZy-T8-8no"/>
@@ -236,7 +244,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xvT-Jw-RDr"/>
-                        <color key="backgroundColor" red="0.1647058824" green="0.78039215689999997" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="BrandLightPurple"/>
                         <constraints>
                             <constraint firstItem="TTL-ko-FJ6" firstAttribute="leading" secondItem="xvT-Jw-RDr" secondAttribute="leading" id="CKL-ja-aMi"/>
                             <constraint firstItem="Hbi-f6-wEX" firstAttribute="trailing" secondItem="xvT-Jw-RDr" secondAttribute="trailing" id="X15-gE-aic"/>
@@ -273,7 +281,7 @@
                                     </imageView>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jFJ-0L-6fo">
                                         <rect key="frame" x="48" y="50" width="297" height="45"/>
-                                        <color key="textColor" name="BrandBlue"/>
+                                        <color key="textColor" red="0.79480106309999998" green="0.51296630409999999" blue="0.70368057230000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -308,7 +316,7 @@
                                     </imageView>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NoJ-3t-34x">
                                         <rect key="frame" x="49" y="50" width="296" height="45"/>
-                                        <color key="textColor" name="BrandBlue"/>
+                                        <color key="textColor" red="0.79480106309999998" green="0.51296630409999999" blue="0.70368057230000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
@@ -331,7 +339,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xFb-AL-ZfQ"/>
-                        <color key="backgroundColor" name="BrandLightBlue"/>
+                        <color key="backgroundColor" name="BrandLightPurple"/>
                         <constraints>
                             <constraint firstItem="K0x-Ga-64R" firstAttribute="leading" secondItem="xFb-AL-ZfQ" secondAttribute="leading" id="4Vn-Hv-xnx"/>
                             <constraint firstItem="K0x-Ga-64R" firstAttribute="trailing" secondItem="xFb-AL-ZfQ" secondAttribute="trailing" id="52Q-rL-nlA"/>
@@ -389,11 +397,8 @@
         <namedColor name="BrandPurple">
             <color red="0.67500001192092896" green="0.43500000238418579" blue="0.9179999828338623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
+        <systemColor name="tertiarySystemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

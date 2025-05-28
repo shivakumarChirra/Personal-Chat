@@ -7,7 +7,8 @@ target 'Personal Chat' do
 
   # Pods for Personal Chat
   pod 'CLTypingLabel','~> 0.4.0'
-
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
   target 'Personal ChatTests' do
     inherit! :search_paths
     # Pods for testing
