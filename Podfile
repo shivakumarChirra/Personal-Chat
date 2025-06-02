@@ -9,6 +9,8 @@ target 'Personal Chat' do
   pod 'CLTypingLabel','~> 0.4.0'
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
+  pod 'IQKeyboardManagerSwift', '~> 6.5'
+
   target 'Personal ChatTests' do
     inherit! :search_paths
     # Pods for testing

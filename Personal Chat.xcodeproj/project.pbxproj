@@ -65,11 +65,15 @@
 		};
 		669448602DE5C7A900DE0FEE /* Personal ChatTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "Personal ChatTests";
 			sourceTree = "<group>";
 		};
 		6694486A2DE5C7A900DE0FEE /* Personal ChatUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "Personal ChatUITests";
 			sourceTree = "<group>";
 		};
@@ -250,6 +254,9 @@
 			);
 			mainGroup = 6694483E2DE5C7A800DE0FEE;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				66EFECBB2DED9C4E00232C49 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 669448482DE5C7A800DE0FEE /* Products */;
 			projectDirPath = "";
@@ -295,13 +302,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Personal Chat/Pods-Personal Chat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Personal Chat/Pods-Personal Chat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -316,13 +319,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Personal Chat-Personal ChatUITests/Pods-Personal Chat-Personal ChatUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Personal Chat-Personal ChatUITests/Pods-Personal Chat-Personal ChatUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -736,6 +735,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		66EFECBB2DED9C4E00232C49 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 6694483F2DE5C7A800DE0FEE /* Project object */;
 }

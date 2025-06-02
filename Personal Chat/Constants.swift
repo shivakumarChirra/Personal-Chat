@@ -9,8 +9,8 @@ struct Constants {
     static let appName = "😉Personal Chat"
    static let registerSegue  = "RegisterToChat"
    static  let loginSegue = "LoginToChat"
-    static  let cellIdentifyer = "ReusableCell"
-    static  let cellNibName  = "MessageCell"
+    static let cellNibName = "MessageCell"
+       static let cellIdentifyer = "ReusableCell"
     struct BrandColors {
         static let purple = "BrandPurple"
         static let lightPurple = "BrandLightPurple"
